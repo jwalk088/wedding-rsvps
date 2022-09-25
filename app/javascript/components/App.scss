@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Raylig";
+  src: url(../../assets/fonts/Raylig.otf);
+}
+
+@font-face {
+  font-family: "NugoSans";
+  src: url(../../assets/fonts/NugoSans.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url(../../assets/fonts/CinzelDecorative-Regular.otf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../../assets/fonts/Poppins-Regular.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../../assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../../assets/fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../../assets/fonts/Poppins-LightItalic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url(../../assets/fonts/Literata-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Literata";
+  src: url(../../assets/fonts/Literata-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Crimson";
+  src: url(../../assets/fonts/CrimsonPro-Italic.ttf);
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Cinzel";
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Cinzel";
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Poppins";
+}
+
+button {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+img {
+  display: block;
+}
+
+h3.title {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 12px;
+  margin-bottom: 30px;
+
+  // MOBILE_LARGE_WIDTH
+  @media only screen and (max-width: 600px) {
+    letter-spacing: 8px;
+    font-size: 16px;
+  }
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+
+  &:hover {
+    color: #566774;
+  }
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style: none;
+}
+
+i.icon {
+  color: black !important;
+}

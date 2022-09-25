@@ -1,0 +1,9 @@
+query AllMenu {
+  menus {
+    title
+    description
+    event {
+      name
+    }
+  }
+}
